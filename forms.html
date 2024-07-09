@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html"></a></div>
+        <div>
+            <nav class="menu-header">
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="forms.html">Forms</a></li>
+                    <li><a href="#">Governament</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="chong-backgr">
+                <h1>Contact Us.</h1>
+                <div class="box-right">
+                    <div class="formulario">
+                        <form action="thanks.html" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-select">
+                                <label for="travel">Travelling Plan</label>
+                                <select name="travel" id="travel" required>
+                                    <option value="selecione" disabled selected>Select the one options...</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="5">Five</option>
+                                </select>
+                            </div>
+                            <div class="form-mens">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Coment more..." maxlength="1.500" required></textarea>
+                            </div>
+                            <div class="form-send">
+                                <input type="submit" value="Send">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
